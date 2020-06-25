@@ -1,0 +1,63 @@
+<Project>
+  <Name>MediaPlayer</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Untitled</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>MainMovie</Name>
+        <Access>Public</Access>
+        <Location left="331" top="304" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Constructor">public MainMovie()</Member>
+        <Member type="Method">public void ismoving()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SoundTrackMixin</Name>
+        <Access>Public</Access>
+        <Location left="411" top="48" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">protected str _music</Member>
+        <Member type="Method">public void play()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Edit</Name>
+        <Access>Public</Access>
+        <Location left="225" top="48" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">protected str _fileedit_name</Member>
+        <Member type="Field">protected str _file_extension</Member>
+        <Member type="Method">public void editing()</Member>
+        <Member type="Constructor">public Edit()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Play</Name>
+        <Access>Public</Access>
+        <Location left="55" top="48" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">protected str _file_name</Member>
+        <Member type="Field">protected str _file_format</Member>
+        <Member type="Method">public void playing()</Member>
+        <Member type="Method">public void Play()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Generalization" first="0" second="3">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>113</X>
+          <Y>448</Y>
+        </BendPoint>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>
